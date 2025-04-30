@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>Silk.NET_ImGui</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <DefineConstants>GL</DefineConstants>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Silk.NET.Input" Version="2.22.0" />
+      <PackageReference Include="Silk.NET.OpenGL" Version="2.22.0" />
+      <!-- <PackageReference Include="Silk.NET.OpenGL.Extensions.ImGui" Version="2.22.0" /> -->
+      <PackageReference Include="Silk.NET.Windowing" Version="2.22.0" />
+        
+      <!-- dependencies from Silk.NET.OpenGL.Extensions.ImGui.csproj -->
+      <!-- <ProjectReference Include="..\..\..\Input\Silk.NET.Input.Common\Silk.NET.Input.Common.csproj" /> -->
+      <!-- <ProjectReference Include="..\..\..\Windowing\Silk.NET.Windowing.Common\Silk.NET.Windowing.Common.csproj" /> -->
+      <PackageReference Include="Silk.NET.Input.Extensions" Version="2.22.0" />
+      <PackageReference Include="ImGui.NET" Version="1.91.6.1" />
+      <PackageReference Include="Friflo.EcGui" Version="0.9.0" />
+    </ItemGroup>
+
+    <!-- Add font 'Inter' for ImGui -->
+    <ItemGroup>
+        <Content Include="Content\Inter-Regular.ttf">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+</Project>
