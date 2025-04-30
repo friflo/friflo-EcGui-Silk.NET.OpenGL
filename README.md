@@ -1,6 +1,6 @@
-# friflo EcGui - MonoGame
+# friflo EcGui - Silk.NET OpenGL
 
-Minimal **MonoGame** setup to showcase use and integration of [**friflo EcGui**](https://github.com/friflo/Friflo.Engine.ECS#ecgui).
+Minimal **Silk.NET OpenGL** setup to showcase use and integration of [**friflo EcGui**](https://github.com/friflo/Friflo.Engine.ECS#ecgui).
 
 **friflo EcGui** can be integrated in every environment that support [**ImGui.NET**](https://github.com/ImGuiNET/ImGui.NET).
 
@@ -53,7 +53,7 @@ ECS
 - TypeDrawers.cs  Custom TypeDrawer's are optional.
                   They enable to render custom types in a single line. E.g. Point, Color, Sprite, ...
 
-ImGuiNet          Contains the source to connect MonoGame Input and Rendering to ImGui.NET.
+ImGui             Contains the source to connect Silk.NET OpenGL Input and Rendering to ImGui.NET.
                   This folder should be copied to your project as is.
 ```
 
