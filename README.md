@@ -6,7 +6,7 @@ Minimal **Silk.NET OpenGL** setup to showcase use and integration of [**friflo E
 
 Ready-to-run Demos are available for: MonoGame, Godot, SDL3 GPU and Silk.NET.OpenGL.
 
-![friflo-EcGui-MonoGame](https://github.com/user-attachments/assets/5150eafe-fad8-4502-88c9-7ceb9b60cbc6)
+![friflo-EcGui-Silk.NET OpenGL](https://github.com/user-attachments/assets/ddff3b5c-43c6-4ee6-8ded-e498ae2fe345)
 
 
 ## Goals
