@@ -41,8 +41,8 @@ namespace ImGui
             window.VSync = false;
             window.Title = "friflo EcGui - Silk.NET.OpenGL";
             
-            DemoECS.CreateEntityStore();    // set up your ECS here
             DemoECS.CustomizeEcGui();       // customize UI
+            DemoECS.CreateEntityStore();    // set up your ECS here
 
             // Handle resizes
             window.FramebufferResize += s =>
